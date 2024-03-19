@@ -124,11 +124,11 @@ supports a subset of LaTeX syntax and can render math to HTML and SVG. To use
 
     extra_javascript:
       - javascripts/katex.js
-      - https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.7/katex.min.js
-      - https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.7/contrib/auto-render.min.js
+      - https://cdn.jsdelivr.net/npm/katex@0/katex.min.js
+      - https://cdn.jsdelivr.net/npm/katex@0/dist/contrib/auto-render.min.js
 
     extra_css:
-      - https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.7/katex.min.css
+      - https://cdn.jsdelivr.net/npm/katex@0/dist/katex.min.css
     ```
 
 ## Usage
